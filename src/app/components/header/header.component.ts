@@ -1,5 +1,7 @@
 import { Component, HostListener } from '@angular/core';
 import { CartService } from 'src/app/services/cart.service';
+import { ProductosService } from 'src/app/services/productos.service';
+import { WhatsappService } from 'src/app/services/whatsapp.service';
 import { CartItem } from 'src/app/Shared/interfaces/CartItem';
 
 @Component({
@@ -23,7 +25,7 @@ export class HeaderComponent {
       return this.isSticky = false;
   }
 
-  constructor(private cartService: CartService) { 
+  constructor(private cartService: CartService,private wpService: WhatsappService,) { 
     this.cartService.getCartObservable()
     .subscribe((cart) => {
       this.totalCart = cart.length;
@@ -44,8 +46,14 @@ export class HeaderComponent {
   toggleShoppingCart() {
     this.shoppingCartFlat = !this.shoppingCartFlat;
   }
-  
+     items:{
+      quantity: number;
+      price: number;
+      title: string;
+      id: number;
+    }[]=[];
   ngOnInit(): void {
+    
 
     // constants
   const body = document.querySelector("body"),
@@ -107,4 +115,20 @@ export class HeaderComponent {
   window.onscroll = function() {
   // header welcome fade out and in
 
-  }}}
+  }   
+
+}
+  sendWhatsapp() {
+      let message = '';
+      this.cart.find(product => {
+      message += `: ${product.title}, Cantidad-${product.quantity}, Precio: ${product.price}  \n`;
+       });
+ 
+        message += `Total: ${this.total()}`;
+ 
+ 
+        const url = this.wpService.contact(message);
+        console.log(url);
+        window.open(url, '_blank');
+
+        this.wpService.contact(message)}}

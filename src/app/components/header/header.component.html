@@ -41,6 +41,7 @@
           
         <div class="cart-total">
           <h3 class="price">Total:&nbsp;</h3>
-          <span class="total-pagar">{{ total() | currency }}</span>
+          <span class="total-pagar">{{ total() | currency }}<button class="boton-wsp"  (click)="sendWhatsapp()"><a class="text-wsp"><img  class="img-wsp" src="assets/images/icons-whatsapp.png"> enviar pedido por Whatsapp</a></button>
+          </span>
         </div>
       </div>
