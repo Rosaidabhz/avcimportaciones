@@ -124,7 +124,7 @@ export class HeaderComponent {
       message += `: ${product.title}, Cantidad-${product.quantity}, Precio: ${product.price}  \n`;
        });
  
-        message += `Total: ${this.total()}`;
+        message += `Total: ${this.total()} dolares`;
  
  
         const url = this.wpService.contact(message);
