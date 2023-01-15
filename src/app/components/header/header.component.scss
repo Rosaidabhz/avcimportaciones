@@ -410,7 +410,43 @@ header.sticky{
     box-shadow: 0px 0px 1px #13084982;
 }
 
+.img-wsp{
+  width: 30px;
+  margin-left: 10px;
+    }
 
+    .boton-wsp{
+      flex-direction: row;
+      display: flex;
+      width: 170px;
+      height: 40px;
+      background: #4b9e52;
+      border:#4b9e52;
+      border-radius: 38px;
+      justify-content: center;
+      justify-items:center;
+      text-align: center;
+      margin-top: 10px;
+      margin-bottom: 1rem;
+      cursor: pointer;
+    }
+  
+    .boton-wsp:hover {
+      background-color: #0c2b13; /* Green */
+      color: white;
+    }
+        
+    .text-wsp{
+      font-size: 15px;
+      font-weight: 400;
+      text-decoration: none;
+      display: flex;
+      font-family: 'Poppins';
+      text-align: center;
+      margin-top: 5px;
+      color: beige;
+      font-family: "Poppins";
+    }
 /* CARRITO */
 
 
