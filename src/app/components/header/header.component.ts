@@ -46,12 +46,7 @@ export class HeaderComponent {
   toggleShoppingCart() {
     this.shoppingCartFlat = !this.shoppingCartFlat;
   }
-     items:{
-      quantity: number;
-      price: number;
-      title: string;
-      id: number;
-    }[]=[];
+   
   ngOnInit(): void {
     
 

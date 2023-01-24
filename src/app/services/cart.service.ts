@@ -30,7 +30,7 @@ export class CartService {
         id,
         title,
         price,
-        quantity: 1
+        quantity: 0
       }
 
       this.cart.push(productCart);

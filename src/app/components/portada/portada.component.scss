@@ -1,0 +1,598 @@
+.hero{
+    width: 100%;
+    height: 100%;
+    bottom: 2rem;
+    display: flex;
+    position: relative;
+  }
+  .front-page{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    gap: 7rem;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 2rem;
+  }
+  .izquierdad{
+    margin-left: 0rem;
+    margin-top: 3.5%;
+    margin-bottom: 1.5rem;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .img-tienda{
+    display: flex;
+    margin-top: 1rem;
+
+    height: 557px;
+    width: 493px;
+    }
+  
+  .title-front-page{
+  
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 155.7%;
+    
+    letter-spacing: 0.10em;
+    text-transform: capitalize;
+    font-feature-settings: 'pcap' on, 'kern' off;
+    
+    color: #104481;
+    margin-top: 2rem;
+    }
+    
+  .text1{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+  }
+  
+  .direction{
+    
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 155.7%;
+  letter-spacing: 0.41em;
+  color: #5A2100;
+  margin-top: 1rem;
+  
+  }
+  .line{
+    width: 530px;
+    height: 0px;
+    border: 1px solid #0a1b3a;
+    transform: rotate(-0.01deg);
+    margin-top: 1rem;
+  }
+  
+  .text2{
+     width: 545px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-transform: lowercase;
+    margin-top: 1rem;
+  
+  }
+  
+  .botonn{
+    flex-direction: row;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(90deg, #091E3A 0%, #2F80ED 50%, #2D9EE0 100%);
+    border: #142630;
+    border-radius: 38px;
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+
+  
+    .boton {
+      font-size: 18px;
+      font-weight: 500;
+      color: #f3f4f5;
+      text-decoration: none;
+      display: flex;
+      font-family: 'Poppins';
+      margin-top: 15px;
+    }
+    
+  .letrero{
+    width: 100%;
+    height: 130px;
+    background-color: #161f2e;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 3rem;
+    margin-top: 38rem;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .icon-a{
+    width: 80px;    
+    float: left;
+    margin-right: 1rem;
+  }
+  .izq-a{
+    width: 500px;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+  }
+
+  .dere-b{
+    width: 500px;
+    color: white;
+    text-align: right;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.icon-b{
+  width: 80px;    
+  float: right;
+  margin-left: 1rem;
+}
+.title-a{
+  font-size: 25px;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.img-productos-prev{
+  width: 220px;
+  height: 250px;
+}
+
+
+
+/*General*/
+.categories-home {
+  padding: 30px 50px; }
+
+.categories-home h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  text-align: center;
+  color: #000000; }
+
+.categories-home hr {
+  border: 3px solid black;
+  width: 300px;
+  margin: 20px auto; }
+
+/* Targets */
+.categories-links {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  align-items: center; 
+  justify-content: center;
+}
+
+.categories-box {
+  width: 220px;
+  height: 500px;
+  margin: 0 10px;
+  background-color: #ECECEC;
+  text-align: center;
+  display: flex;
+  flex-direction: column; }
+
+/* Targets IMG */
+.categories-box-img {
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+  height: 200px; }
+
+/* Targets TEXT*/
+.categories-box-text {
+  padding: 20px 0; }
+
+.categories-box-text i {
+  font-size: 35px;
+  color: black; }
+
+.categories-box-text h3 {
+  padding: 10px 0;
+  font-size: 22px;
+  font-weight: 700; 
+}
+
+.categories-box-text ul li {
+  margin: 5px 0;
+  text-align: center;
+
+}
+
+/* Targets BTN*/
+.categories-box-btn {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-weight: 700; }
+
+.categories-box-btn.house {
+  background: linear-gradient(90deg, #00F260 0%, #0575E6 100%); }
+
+.categories-box-btn.tech {
+  background: linear-gradient(90deg, #0F2027 0%, #203A43 50%, #2C5364 100%); }
+
+.categories-box-btn.pets {
+  background: linear-gradient(90deg, #000000 0%, #0F9B0F 100%); }
+
+.categories-box-btn.beauty {
+  background: linear-gradient(90deg, #C84E89 0%, #F15F79 100%); }
+
+.categories-box-btn.fit {
+  background: linear-gradient(90deg, #C21500 0%, #FFC500 100%); }
+
+
+  @media (max-width: 720px) {
+    .hero{
+      background-color: white;
+      background-repeat: no-repeat;
+      padding: 0rem;
+      margin: 0;
+      display: grid;
+      flex-direction: column;
+      justify-items: center;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+    }
+   
+      .img{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        margin-top: 1rem;
+        align-content:center;
+        width: 100%;
+        height: 500px;
+        margin-bottom: 1rem;
+        padding: 0rem;
+        border: 0px;
+        position: relative;
+        left: 0;
+   }
+  
+    .img-tienda{
+      width: 100%;
+      height: 500px;      
+      left: 0;
+    }
+    
+    .front-page{
+      display: flex;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+      align-items: center;
+      margin: 0px;
+      align-content:center;
+      width: 100%;
+      height: 400px;
+      margin-bottom: 0rem;
+      margin-top: 0%;
+      padding: 0rem;
+      border: 0px;
+      position: relative;
+      left: 0;
+      }
+    .title-front-page{
+      text-align: center;
+   font-size: 25px;   
+   margin-top: 0%; 
+  }
+      
+  .text1{
+  text-align: center;
+  margin: 0;
+  justify-content: center;
+  gap: 2;
+  margin-top: 0%; 
+  
+  }
+  
+  .line{
+    width: 411px;
+    height: 0px;
+    margin: 0;
+  position: relative;
+  
+  }
+  .text-2{
+    text-align: center;
+    margin: 0;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+  
+  }
+  .text2{
+    position: relative;
+    margin: 0;
+    max-width: 100%;
+    text-align: center;
+    justify-content: center;
+    
+  }
+  .botonn{
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-content:center;
+    position: relative; 
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .boton{
+    font-size: 10px;
+    margin-top: 20px;
+  }
+  .cart{
+  width: 50px;
+  height: 50px;
+  }
+
+  
+    
+    }
+      @media (max-width: 414px) {
+        .hero{
+          background-color: white;
+          background-repeat: no-repeat;
+          padding: 0rem;
+          margin: 0;
+          display: grid;
+          flex-direction: column;
+          justify-items: center;
+          text-align: center;
+          width: 100%;
+          height: 100%;
+        }
+       
+          .img{
+            display: flex;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+            align-items: center;
+            margin-top: 1rem;
+            align-content:center;
+            width: 100%;
+            height: 500px;
+            margin-bottom: 1rem;
+            padding: 0rem;
+            border: 0px;
+            position: relative;
+            left: 0;
+       }
+      
+        .img-tienda{
+          width: 100%;
+          height: 500px;      
+          left: 0;
+        }
+        
+        .front-page{
+          display: flex;
+          justify-content: center;
+          justify-items: center;
+          text-align: center;
+          align-items: center;
+          margin: 0px;
+          align-content:center;
+          width: 100%;
+          height: 400px;
+          margin-bottom: 0rem;
+          margin-top: 0%;
+          padding: 0rem;
+          border: 0px;
+          position: relative;
+          left: 0;
+          }
+        .title-front-page{
+          text-align: center;
+       font-size: 25px;   
+       margin-top: 0%; 
+      }
+          
+      .text1{
+      text-align: center;
+      margin: 0;
+      justify-content: center;
+      gap: 2;
+      margin-top: 0%; 
+      
+      }
+      
+      .line{
+        width: 411px;
+        height: 0px;
+        margin: 0;
+      position: relative;
+      
+      }
+      .text-2{
+        text-align: center;
+        margin: 0;
+        max-width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+      
+      }
+      .text2{
+        position: relative;
+        margin: 0;
+        max-width: 100%;
+        text-align: center;
+        justify-content: center;
+        
+      }
+      .botonn{
+        flex-direction: row;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-content:center;
+        position: relative; 
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+      }
+      
+      .boton{
+        font-size: 10px;
+        margin-top: 20px;
+      }
+      .cart{
+      width: 50px;
+      height: 50px;
+      }
+    
+  
+        }
+  
+    @media (max-width: 390px) {
+      .hero{
+        background-color: white;
+        background-repeat: no-repeat;
+        padding: 0rem;
+        margin: 0;
+        display: grid;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+      }
+     
+        .img{
+          display: flex;
+          justify-content: center;
+          justify-items: center;
+          text-align: center;
+          align-items: center;
+          margin-top: 1rem;
+          align-content:center;
+          width: 100%;
+          height: 500px;
+          margin-bottom: 1rem;
+          padding: 0rem;
+          border: 0px;
+          position: relative;
+          left: 0;
+     }
+    
+      .img-tienda{
+        width: 100%;
+        height: 500px;      
+        left: 0;
+      }
+      
+      .front-page{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        align-items: center;
+        margin: 0px;
+        align-content:center;
+        width: 100%;
+        height: 400px;
+        margin-bottom: 0rem;
+        margin-top: 0%;
+        padding: 0rem;
+        border: 0px;
+        position: relative;
+        left: 0;
+        }
+      .title-front-page{
+        text-align: center;
+     font-size: 25px;   
+     margin-top: 0%; 
+    }
+        
+    .text1{
+    text-align: center;
+    margin: 0;
+    justify-content: center;
+    gap: 2;
+    margin-top: 0%; 
+    
+    }
+    
+    .line{
+      width: 411px;
+      height: 0px;
+      margin: 0;
+    position: relative;
+    
+    }
+    .text-2{
+      text-align: center;
+      margin: 0;
+      max-width: 100%;
+      flex-direction: row;
+      justify-content: center;
+      position: relative;
+    
+    }
+    .text2{
+      position: relative;
+      margin: 0;
+      max-width: 100%;
+      text-align: center;
+      justify-content: center;
+      font-family: 'Poppins';
+
+    }
+    .botonn{
+      flex-direction: row;
+      justify-content: center;
+      justify-items: center;
+      text-align: center;
+      align-content:center;
+      position: relative; 
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .boton{
+      font-size: 10px;
+      margin-top: 20px;
+    }
+    .cart{
+    width: 50px;
+    height: 50px;
+    }
+ 
+      }

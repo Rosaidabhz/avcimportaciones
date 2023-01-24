@@ -7,12 +7,16 @@ import { ProductosComponent } from './components/productos/productos.component';
 import { Maquinas } from './Shared/interfaces/Maquinas';
 import { CartService } from './services/cart.service';
 import { CartItem}from './Shared/interfaces/CartItem';
+import { PortadaComponent } from './components/portada/portada.component';
+import { FoonterComponent } from './components/foonter/foonter.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     ProductosComponent,
+    PortadaComponent,
+    FoonterComponent,
   ],
   imports: [
     BrowserModule,
