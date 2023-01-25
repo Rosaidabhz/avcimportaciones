@@ -1,7 +1,9 @@
 .footer {
     padding: 30px 30px 40px 30px;
     color: white;
-    background: black; }
+    background: black; 
+    text-decoration:none; 
+}
   
   .footer-container-one {
     width: 100%;
@@ -20,11 +22,16 @@
     margin-bottom: 10px; }
   
   .footer-links-box ul li {
-    margin: 5px 0; }
+    margin: 5px 0;
+    text-decoration:none ;
+ }
   
   .footer-links-box ul li a {
     color: white;
-    font-size: 14px; }
+    font-size: 14px;
+    text-decoration:none; 
+
+}
   
   .footer-links-box ul li a:hover {
     color: orange; }

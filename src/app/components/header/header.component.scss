@@ -73,10 +73,12 @@ header {
   height: 100px;
   background-size: cover;
   padding: 10px 0px;
+  gap: 2rem;
 }
 header nav {
   top: 0;
   z-index:20;
+  gap: 8rem;
 }
 header nav .toggle {
   display: none;
@@ -127,7 +129,6 @@ header .navigation-bar.show {
 header .navigation-bar.show a {
   color: rgb(3, 2, 2) !important;
   margin-left: 20px;
-
 }
 header .navigation-bar.show a:hover {
   color: rgb(0, 0, 0) !important;
@@ -135,6 +136,8 @@ header .navigation-bar.show a:hover {
 header .navigation-bar ul li {
   flex: 1;
   padding: 0px 30px;
+  margin-top: 20px;
+
 }
 header .navigation-bar a {
   text-decoration: none;
@@ -160,7 +163,8 @@ header .text h1 {
   margin-bottom: 0;
 }
 .navigation-bar{
-  margin-top: 20px;
+  margin-top: 0px;
+  width: 100px;
 
 }
 
