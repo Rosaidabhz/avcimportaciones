@@ -2,6 +2,8 @@
     width: 100%;
     height: 100%;
     bottom: 2rem;
+   justify-content: space-between
+
   }
   .front-page{
     width: 100%;
@@ -253,7 +255,42 @@
     font-size: 40px;
     line-height: 40px; }
   .categories-links {
-    grid-template-columns: auto auto; } }
+    grid-template-columns: auto auto; } 
+  
+  .hero{
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    text-align: center;
+    justify-items: center;
+    flex-direction: column;
+
+  }
+  .front-page{
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0rem;
+  }
+  .izquierdad{
+    margin-left: 0rem;
+    margin-top: 0%;
+    margin-bottom: 0rem;
+    flex-direction: column;
+    gap: 0rem;
+    margin: 0;
+
+  }
+  .img-tienda{
+    display: flex;
+    height: 557px;
+    width: 493px;
+    margin: 0;
+    justify-content: center;
+    justify-items: center;
+    }
+  }
 
 /*MEDIA QUIERES (MOVIL)*/
 @media screen and (max-width: 520px) {
