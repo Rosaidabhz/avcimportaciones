@@ -219,6 +219,11 @@ margin-right: 10px;
   body {
       padding: 0;
   }
+  header nav {
+    top: 0;
+    z-index:20;
+    gap: 2rem;
+  }
   .dots {
       display: none;
   }

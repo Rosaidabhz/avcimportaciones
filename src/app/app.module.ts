@@ -9,6 +9,7 @@ import { CartService } from './services/cart.service';
 import { CartItem}from './Shared/interfaces/CartItem';
 import { PortadaComponent } from './components/portada/portada.component';
 import { FoonterComponent } from './components/foonter/foonter.component';
+import { AboutUsComponent } from './components/about-us/about-us.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FoonterComponent } from './components/foonter/foonter.component';
     ProductosComponent,
     PortadaComponent,
     FoonterComponent,
+    AboutUsComponent,
   ],
   imports: [
     BrowserModule,
