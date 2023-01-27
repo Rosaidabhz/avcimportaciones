@@ -10,6 +10,7 @@ import { CartItem}from './Shared/interfaces/CartItem';
 import { PortadaComponent } from './components/portada/portada.component';
 import { FoonterComponent } from './components/foonter/foonter.component';
 import { AboutUsComponent } from './components/about-us/about-us.component';
+import { YouTubePlayerModule } from "@angular/youtube-player";
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule,  
   ],
   providers: [],
   bootstrap: [AppComponent]
